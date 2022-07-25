@@ -1,0 +1,232 @@
+body{
+    background-color:#dad8d8;
+    margin: 0;
+    padding: 0;
+}
+   
+/*fontes*/
+.titulo{
+    font-size: 24pt;
+
+}
+.titulomain{
+    font-size: 24pt;
+    padding-left: 300px;
+}
+
+/*MENU*/
+.menu{
+    position: absolute;
+    background-color: #56bae5;
+    width: 280px;
+    height: 100%;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    
+   
+}
+.menu ul{
+    list-style: none;
+    padding-top: 120px;
+    margin-left: -50px;
+    
+}
+.menu ul li{
+    list-style: none;
+    padding: 25px 50px ;
+
+}
+.menu ul li:hover{
+    background:#536879 ;
+    list-style: none;
+
+}
+.menu ul a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 15pt;
+}
+
+/*Barra*/
+
+
+.bar0{
+    position: absolute;
+    background-color: #56bae5;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+
+.barmenu{
+    background-color: #4989a5;
+}
+
+
+/*INTERFACE MAIN*/
+
+div#interface{
+   
+    position: absolute;
+    left: 320px;
+    top: 200px;
+    width: 1030px;
+}
+.acc{
+    position: absolute;
+}
+
+
+.acc > input{
+display: inline;
+margin:10px;
+height: 35px;
+width: 2230px;
+
+/*
+border:solid 2px #969191;
+border-radius: 10px;
+*/
+}
+/*VENDAS*/
+
+.tabela{
+    position: relative;
+    left:0px;
+    top: 40px;
+}
+
+
+/*BTN*/
+.btn{
+    
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+.btn input{ 
+    width: 180px;
+    height: 40px;
+    margin: 20px 10px;
+    border: 1px solid #969191;
+    border-radius: 8px;
+    color: #ffffff;
+    box-shadow: rgba(0.0.0.5);
+    
+}
+.btn input:hover{ 
+    width: 190px;
+    height: 42px;
+  position: relative;
+
+}
+.submit{
+    background-color: #34bfed;
+    display: inline-block;
+    margin: 20px;
+}
+.reset{
+    background-color: #df1616;
+
+}
+/*Radape*/
+footer#rodape > p {
+    display: none;
+    text-align: center;    
+}
+
+
+.pcenter{
+    font-size: 25pt;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+ 
+}
+
+/*acoes*/
+.acoes{
+    
+}
+
+
+.acoes img{
+      margin: 0 20px;
+      
+}
+.acoes img:hover{
+    
+}
+.icon img{
+    display: block;
+    margin-bottom: 10px;
+}
+.icon {
+    position: absolute;
+    left: 15px;
+    top: 140px;   
+}
+
+/*formulario*/
+
+.lbl{
+    width: 220px;
+    height:40px;
+    font-size: 13pt;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin: 20px 10px;
+    border: 1px solid #969191;
+    box-shadow: rgba(0.0.0.5);
+    border-radius: 8px;
+}
+.lbl1{
+    width: 220px;
+    height:25px;
+    font-size: 13pt;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #969191;
+}
+.btn{
+    height: 44px;
+}
+.btn1{
+    height: 44px;
+    width: 120px;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+
+}
+
+/*Login*/
+.login{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top:100px ;
+    background-color: aqua;
+    width: 300px;
+    text-align: center;
+    height: 250px;
+}
+
+.tabela{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+.titulomain{
+    position: absolute;
+    top: 150px;
+}
